@@ -8,15 +8,16 @@ public class AddingMachineTest {
 		AddingMachine test = new AddingMachine();
 		
 		test.add(5);
-		System.out.println(test.toString());
+		
+		System.out.println(test.toString() + " = " + test.getTotal());
 		test.subtract(4);
-		System.out.println(test.toString());
+		System.out.println(test.toString() + " = " + test.getTotal());
 		test.clear();
-		System.out.println(test.toString());
+		System.out.println(test.toString() + " = " + test.getTotal());
 		test.add(27);
-		System.out.println(test.toString());
+		System.out.println(test.toString() + " = " + test.getTotal());
 		test.subtract(35);
-		System.out.println(test.toString());
+		System.out.println(test.toString() + " = " + test.getTotal());
 	}
 
 }
